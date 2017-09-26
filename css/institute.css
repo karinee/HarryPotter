@@ -1,0 +1,69 @@
+#institute {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    background-color: #e8e8e4;
+}
+#institute div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:25%;
+}
+#institute div:first-child,
+#institute div:last-child{
+    color:#fff;
+}
+
+#institute img{
+    padding-top: 50px;
+    width:50%;
+}
+#institute div p:first-of-type{
+    margin-top:50px;
+    font-size: 18px;
+}
+#institute div p:last-of-type{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#institute hgroup p:first-of-type{
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+#institute hgroup p:last-of-type{
+    font-size: 20px;
+}
+#institute div{
+    position: relative;
+}
+#G{
+    background-color: #990000;
+}
+#G .boundary:before{
+    background-color: #990000;
+}
+#S{
+    background-color: #006633;
+}
+#S .boundary:before{
+    background-color: #006633;
+}
+#R{
+    background-color: #19215E;
+}
+#R .boundary:before{
+    background-color: #19215E;
+}
+#H{
+    background-color: #f2b800;
+}
+#H .boundary:before{
+    background-color: #f2b800;
+}
+#institute div:hover .boundary:after {
+    left: 0;
+    right: 0;
+    transition: all 0.5s ease 0s;
+}

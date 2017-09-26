@@ -1,0 +1,103 @@
+*{
+    margin:0px 0px;
+    padding:0px 0px;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    width:100%;
+    height:100%;
+}
+
+@font-face{
+    font-family:"hpfont" ;
+    src: url('../font/harryp__-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../font/icomoon.ttf') format('truetype'),url('../font/icomoon.svg') format('svg'),url('../font/icomoon.woff') format('woff'),url('../font/icomoon.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+.hp{
+    font-family: "hpfont";
+    font-size: 40px;
+}
+#poster{
+    height:8%;
+    background-color: #00556b;
+}
+#poster p{
+    color: #ffffff;
+    font-size: 75px;
+    text-align: center;
+}
+[class^="icon-"]{
+    font-family: icomoon;
+
+}
+#classify{
+    height:30px;
+    line-height:30px;
+    background-color: #004555;
+    font-size: 16px;
+    text-align: center;
+    color:#fff;
+}
+#classify li{
+    float: left;
+    width:19.65%;
+    height:26px;
+    border: 2px solid transparent;
+}
+#classify li:hover{
+    border-bottom: 2px solid #fff;
+}
+#classify .hp{
+    font-size: 17px;
+}
+hgroup{
+    text-align: center;
+    vertical-align: baseline;
+}
+.boundary{
+    position: relative;
+    margin:0 auto;
+    border:none;
+}
+.boundary:before{
+    position: relative;
+    display: block;
+    height:18px;
+    line-height: 18px;
+    margin:0 auto;
+    width:50px;
+    font-family: "icomoon";
+    font-size: 50px;
+    content: "\ea76";
+    z-index:1;
+}
+.boundary:after{
+    position: absolute;
+    content:"";
+    left:50%;
+    right:50%;
+    bottom:50%;
+    border-bottom:2px solid;
+}
+footer{
+    background-color: rgba(51,51,51,1);
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+}
+footer span{
+    font-size:23px;
+    font-family: "hpfont";
+}
+
+
+
